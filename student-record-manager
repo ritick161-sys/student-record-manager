@@ -1,0 +1,14 @@
+# 1. Create and activate virtual environment
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# 2. Initialize Git and push to your new repository
+git init
+git add student_manager.py README.md .gitignore
+git commit -m "feat: add CLI Student Record Management System with JSON/CSV support"
+git branch -M main
+git remote add origin https://github.com/ritick161-sys/student-record-manager.git
+git push -u origin main
